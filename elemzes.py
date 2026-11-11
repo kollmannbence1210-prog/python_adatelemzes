@@ -7,9 +7,8 @@ import matplotlib.pyplot as plt
 OUTPUT_DIR = 'charts'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ---------------------------------------------------------
+
 # 0. ADATOK BETÖLTÉSE ÉS ELŐFELDOLGOZÁSA
-# ---------------------------------------------------------
 try:
     df = pd.read_csv('imdb_top_1000.csv')
 except FileNotFoundError:
